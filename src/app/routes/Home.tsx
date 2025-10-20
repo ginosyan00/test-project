@@ -14,7 +14,7 @@ export const Home: React.FC = () => {
       </Helmet>
       <Hero />
       <Section title="Our principles and methods of yarn production">
-        <div className="grid md:grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-5 md:gap-6">
           <Card title="Natural Dyes" text="The dyes we use are strictly plant based and natural." />
           <Card title="Sorting & Washing" text="Short fibers are separated; long fibers are processed into yarns." />
           <Card title="Hand Spinning" text="Hand-washed and air-dried wool is spun by hand in small batches." />
@@ -25,9 +25,9 @@ export const Home: React.FC = () => {
         <GalleryGrid />
       </Section>
       <Section title="Our Partners">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="container-page grid grid-cols-2 md:grid-cols-4 gap-4">
           {Array.from({ length: 4 }).map((_, i) => (
-            <div key={i} className="aspect-[3/2] w-full rounded-md bg-gray-100 border" />
+            <div key={i} className="aspect-[3/2] w-full rounded-lg thin-border bg-white" />
           ))}
         </div>
       </Section>

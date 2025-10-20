@@ -1,0 +1,13 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "message": "A MESSAGE",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "From nature to beauty ... let yourself be enchanted!"
+    }
+  }
+}

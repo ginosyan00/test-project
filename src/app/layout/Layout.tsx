@@ -4,9 +4,9 @@ import { Footer } from '../../components/ui/Footer';
 
 export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <div className="min-h-screen bg-white text-gray-900">
+    <div className="min-h-screen">
       <Navbar />
-      <main className="mx-auto max-w-6xl px-4 py-8">{children}</main>
+      <main>{children}</main>
       <Footer />
     </div>
   );
